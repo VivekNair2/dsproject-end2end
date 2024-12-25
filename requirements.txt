@@ -1,0 +1,10 @@
+pandas 
+numpy
+mlflow
+scikit-learn
+Flask
+Flask-Cors
+joblib
+matplotlib
+python-box
+ensure
