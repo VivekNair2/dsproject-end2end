@@ -110,3 +110,61 @@ NameError: name 'os' is not defined. Did you forget to import 'os'
 [2024-12-25 22:29:13,840: INFO: common: created directory at: artifacts/data_ingestion]
 [2024-12-25 22:29:13,840: INFO: data_ingestion: File already exists]
 [2024-12-25 22:29:13,851: INFO: main: >>>>> stage Data ingestion stage completed >>>>]
+[2024-12-25 23:08:32,561: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:08:32,566: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:08:32,568: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:08:32,571: INFO: common: created directory at: artifacts]
+[2024-12-25 23:08:32,572: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-25 23:09:21,702: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:09:21,704: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:09:21,706: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:09:21,707: INFO: common: created directory at: artifacts]
+[2024-12-25 23:09:21,708: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-25 23:11:19,780: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:11:19,782: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:11:19,784: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:11:19,785: INFO: common: created directory at: artifacts]
+[2024-12-25 23:11:19,786: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-25 23:52:44,927: INFO: main: welcome to our custom logging data science]
+[2024-12-25 23:52:44,928: INFO: main: >>>>> stage Data ingestion stage started >>>>>>]
+[2024-12-25 23:52:44,930: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:52:44,932: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:52:44,940: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:52:44,940: INFO: common: created directory at: artifacts]
+[2024-12-25 23:52:44,940: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 23:52:44,941: INFO: data_ingestion: File already exists]
+[2024-12-25 23:52:44,956: INFO: main: >>>>> stage Data ingestion stage completed >>>>]
+[2024-12-25 23:52:44,956: INFO: main: >>>>> stage Data Validation stage started >>>>>>]
+[2024-12-25 23:52:44,958: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:52:44,959: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:52:44,960: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:52:44,961: INFO: common: created directory at: artifacts]
+[2024-12-25 23:52:44,961: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-25 23:52:44,961: ERROR: main: name 'pd' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\main.py", line 24, in <module>
+    data_ingestion.initiate_data_validation()
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\src\datascience\pipeline\data_validation_pipeline.py", line 15, in initiate_data_validation
+    data_validation.validate_all_columns()
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\src\datascience\components\data_validation.py", line 26, in validate_all_columns
+    raise e
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\src\datascience\components\data_validation.py", line 12, in validate_all_columns
+    data=pd.read_csv(self.config.unzip_data_dir)
+         ^^
+NameError: name 'pd' is not defined
+[2024-12-25 23:53:27,467: INFO: main: welcome to our custom logging data science]
+[2024-12-25 23:53:27,468: INFO: main: >>>>> stage Data ingestion stage started >>>>>>]
+[2024-12-25 23:53:27,469: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:53:27,470: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:53:27,471: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:53:27,471: INFO: common: created directory at: artifacts]
+[2024-12-25 23:53:27,471: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 23:53:27,472: INFO: data_ingestion: File already exists]
+[2024-12-25 23:53:27,474: INFO: main: >>>>> stage Data ingestion stage completed >>>>]
+[2024-12-25 23:53:27,474: INFO: main: >>>>> stage Data Validation stage started >>>>>>]
+[2024-12-25 23:53:27,475: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 23:53:27,476: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 23:53:27,477: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 23:53:27,478: INFO: common: created directory at: artifacts]
+[2024-12-25 23:53:27,478: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-25 23:53:27,495: INFO: main: >>>>> stage Data Validation stage completed <<<<<]
