@@ -1,1 +1,112 @@
 [2024-12-25 11:47:53,257: INFO: main: welcome to our custom logging data science]
+[2024-12-25 13:58:19,722: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 13:58:19,744: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 13:59:47,361: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 13:59:47,371: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 13:59:47,380: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 14:01:36,395: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 14:01:36,396: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 14:01:36,399: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 14:01:36,401: INFO: common: created directory at: artifacts]
+[2024-12-25 14:02:36,334: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 14:02:36,336: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 14:02:36,338: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 14:02:36,339: INFO: common: created directory at: artifacts]
+[2024-12-25 14:03:54,905: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 14:03:54,907: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 14:03:54,908: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 14:03:54,909: INFO: common: created directory at: artifacts]
+[2024-12-25 14:07:48,488: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 14:07:48,489: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 14:07:48,491: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 14:07:48,491: INFO: common: created directory at: artifacts]
+[2024-12-25 14:08:07,503: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 14:08:07,504: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 14:08:07,505: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 14:08:07,506: INFO: common: created directory at: artifacts]
+[2024-12-25 21:17:28,501: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:17:28,526: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:17:28,551: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:17:28,557: INFO: common: created directory at: artifacts]
+[2024-12-25 21:19:10,072: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:19:10,079: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:19:10,079: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:19:10,086: INFO: common: created directory at: artifacts]
+[2024-12-25 21:19:27,496: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:19:27,503: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:19:27,507: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:19:27,511: INFO: common: created directory at: artifacts]
+[2024-12-25 21:19:27,513: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 21:20:15,981: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:20:15,986: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:20:15,989: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:20:15,989: INFO: common: created directory at: artifacts]
+[2024-12-25 21:20:15,997: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 21:20:43,091: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:20:43,096: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:20:43,102: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:20:43,108: INFO: common: created directory at: artifacts]
+[2024-12-25 21:20:43,113: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 21:22:39,750: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:22:39,758: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:22:39,763: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:22:39,766: INFO: common: created directory at: artifacts]
+[2024-12-25 21:22:39,771: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 21:23:31,555: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 21:23:31,562: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 21:23:31,565: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 21:23:31,569: INFO: common: created directory at: artifacts]
+[2024-12-25 21:23:31,573: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 21:23:33,093: INFO: 2234544069: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D590:19E8E6:AA375:FBC08:676C2A7E
+Accept-Ranges: bytes
+Date: Wed, 25 Dec 2024 15:53:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10235-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1735142015.029588,VS0,VE298
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 91de03ab0c39516e85a8b597d97f912a6fac095f
+Expires: Wed, 25 Dec 2024 15:58:35 GMT
+Source-Age: 0
+
+]
+[2024-12-25 22:28:55,698: INFO: main: welcome to our custom logging data science]
+[2024-12-25 22:28:55,698: INFO: main: >>>>> stage Data ingestion stage started >>>>>>]
+[2024-12-25 22:28:55,702: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 22:28:55,712: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 22:28:55,719: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 22:28:55,719: INFO: common: created directory at: artifacts]
+[2024-12-25 22:28:55,719: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 22:28:55,719: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\src\datascience\pipeline\data_ingestion.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+  File "C:\Users\vivek\Desktop\MLOPS\dsproject-end2end\src\datascience\components\data_ingestion.py", line 15, in download_file
+    if not os.path.exists(self.config.local_data_file):
+           ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+[2024-12-25 22:29:13,835: INFO: main: welcome to our custom logging data science]
+[2024-12-25 22:29:13,835: INFO: main: >>>>> stage Data ingestion stage started >>>>>>]
+[2024-12-25 22:29:13,835: INFO: common: yaml file :config\config.yaml succesfully loaded]
+[2024-12-25 22:29:13,835: INFO: common: yaml file :params.yaml succesfully loaded]
+[2024-12-25 22:29:13,835: INFO: common: yaml file :schema.yaml succesfully loaded]
+[2024-12-25 22:29:13,840: INFO: common: created directory at: artifacts]
+[2024-12-25 22:29:13,840: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-25 22:29:13,840: INFO: data_ingestion: File already exists]
+[2024-12-25 22:29:13,851: INFO: main: >>>>> stage Data ingestion stage completed >>>>]
