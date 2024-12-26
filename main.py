@@ -27,3 +27,13 @@ except  Exception as e:
     logger.exception(e)
     raise e
     
+STAGE_NAME="Data transformation stage"
+
+try:
+    logger.info(f">>>>> stage {STAGE_NAME} started >>>>>>")
+    data_transformation=DataValidationTrainingPipeline()
+    data_transformation.initiate_data_validation()
+    logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e
